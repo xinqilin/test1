@@ -1,0 +1,72 @@
+
+
+package xxx;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class GetOpenData_WithJSON3 {
+	private static final String MY_URL = "https://gis.taiwan.net.tw/XMLReleaseALL_public/scenic_spot_C_f.json";
+
+	public static void main(String[] args) throws IOException, JSONException {
+		StringBuilder sb = new StringBuilder();
+		URL url = new URL(MY_URL);
+		HttpURLConnection con = (HttpURLConnection) url.openConnection();
+		con.setRequestMethod("GET");
+		con.setUseCaches(false);
+		InputStream is = con.getInputStream();
+		InputStreamReader isr = new InputStreamReader(is,"UTF-8");
+		BufferedReader br = new BufferedReader(isr);
+		
+		String str;
+		while ((str = br.readLine()) != null)
+			sb.append(str);
+		
+		br.close();
+		isr.close();
+		is.close();
+		con.disconnect();
+		
+		System.out.println("===================================");
+		
+		int j = sb.indexOf("{");
+		String sc = sb.substring(j);
+		JSONObject jObj = new JSONObject(sc.trim());
+		JSONObject jObj2=jObj.getJSONObject("XML_Head");
+		JSONObject jObj3=jObj2.getJSONObject("Infos");
+		JSONArray jArray = jObj3.getJSONArray("Info");
+		int k=0;
+		for (int i = 0; i < jArray.length(); i++) {
+			JSONObject data = jArray.getJSONObject(i);
+			String name = data.getString("Name");
+			String address=data.getString("Add");
+			String tel=data.getString("Tel");
+			double px=data.getDouble("Px");
+			double py=data.getDouble("Py");
+			String tip=data.getString("Description");
+			
+			System.out.println("景點 : " + name);
+			System.out.println("地址"+address);
+			System.out.println("電話"+tel);
+			System.out.println("經度"+px);
+			System.out.println("緯度"+py);
+			System.out.println("描述"+tip);
+			k++;
+			System.out.println(k);
+			if(k==5132)
+				break;
+			System.out.println("============================");
+		}
+	}
+
+}
+
