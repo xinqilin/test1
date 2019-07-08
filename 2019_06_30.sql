@@ -163,7 +163,7 @@ CREATE TABLE SpotList(
   Tel          VARCHAR2(20),
   SpotLati     NUMBER(10,6)   NOT NULL,
   SpotLong     NUMBER(10,6)   NOT NULL, 
-  SpotDetail   VARCHAR2(500)  NOT NULL, 
+  SpotDetail   VARCHAR2(4000)  , 
    
   CONSTRAINT  SpotList_PK PRIMARY KEY (SpotNo));
   
