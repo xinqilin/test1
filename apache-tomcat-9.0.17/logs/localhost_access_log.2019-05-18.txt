@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:12:20 +0800] "GET /manager/html HTTP/1.1" 401 2562
+0:0:0:0:0:0:0:1 - manager-gui [18/May/2019:19:12:27 +0800] "GET /manager/html HTTP/1.1" 200 28151
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:12:27 +0800] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:12:27 +0800] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:12:29 +0800] "GET /DataSource_JNDI/ HTTP/1.1" 200 1168
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:12:57 +0800] "GET /DataSource_JNDI/ HTTP/1.1" 200 1168
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:13:00 +0800] "GET /DataSource_JNDI/ HTTP/1.1" 200 1168
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:14:19 +0800] "GET /DataSource_JNDI/ HTTP/1.1" 200 1168
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:14:52 +0800] "GET /DataSource_JNDI/ HTTP/1.1" 200 1168
+0:0:0:0:0:0:0:1 - - [18/May/2019:19:15:30 +0800] "GET /DataSource_JNDI/Test_DataSource HTTP/1.1" 200 303

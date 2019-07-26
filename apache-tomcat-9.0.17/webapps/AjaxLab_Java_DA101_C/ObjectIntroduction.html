@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Object 簡介</title>
+<style>
+  h2 { color:deepPink}
+</style>
+
+</head>
+<body>	   
+<h2> new Object()</h2>
+<script>  
+var arr = new Array(11,22,33);
+var arr = [];
+
+var emp = new Object();  //{}
+emp.empno = "7001";
+emp.ename = "Adam";
+emp.submit = function(coco){
+	if( coco <= 10000){
+		document.write("申請費用", coco, ", 可!!<br>");
+	}else{
+		document.write("申請費用", coco, ", 超過10000元, 不可!!!!!<br>");
+	}
+}
+document.write("empno : ", emp.empno, "<br>");
+document.write("ename : ", emp.ename, "<br>");
+emp.submit(2000000);
+
+</script>
+
+<h2> new 類別名稱()</h2>
+<script> 	
+function Employee( empno, ename){
+	this.empno = empno;
+	this.ename = ename;
+	this.submit = function(coco){
+		if( coco <= 10000){
+			document.write("申請費用", coco, ", 可!!<br>");
+		}else{
+			document.write("申請費用", coco, ", 超過10000元, 不可!!!!!<br>");
+		}
+	}
+}
+
+
+Employee("7002", "Ann"); //當做一般函式來呼叫，this會參考到window
+document.write("empno : ", window.empno, "<br>");
+document.write("ename : ", window.ename, "<br>");
+
+var emp = new Employee("7003", "Amy");  
+// var emp = new Object(); 
+// Employee.call( emp, "7003", "Amy") //將emp傳入Employee函式, 令Employee函式中的this可以參考到emp
+document.write("empno : ", emp.empno, "<br>");
+document.write("ename : ", emp.ename, "<br>");
+emp.submit(9999);
+
+var emp2 = new Employee("7111","Helen");
+emp2.submit(6000);
+</script> 
+
+<h2>Object literal</h2> 
+<script type="text/javascript">
+var emp = {
+	empno : "7111",
+	ename : "John",
+	sal : 35000,
+	phone : ["03-4257387", "03-168168", "0988-168168"]
+}
+document.write("empno : ", emp.empno, "<br>");
+document.write("ename : ", emp.ename, "<br>");
+document.write("phone[0] : ", emp.phone[0], "<br>"); //03-4257387
+document.write("phone : ", emp.phone, "<br>");
+</script>
+
+<h2>Object literal</h2> 
+<script type="text/javascript">
+var emp = {
+	empno : "7111",
+	ename : "John",
+	sal : 35000,
+	phone : {O:"03-4257387", H:"03-168168", M:"0988-168168"}
+}
+document.write("empno : ", emp.empno, "<br>");
+document.write("ename : ", emp.ename, "<br>");
+document.write("phone : ", emp.phone.O, "<br>"); //03-4257387
+document.write("phone : ", emp.phone, "<br>");  //[object Object]
+</script>
+
+<h2>JSON.stringify()====</h2>
+<script> 	
+var emp = {
+	empno : "7111",
+	ename : "John",
+	sal : 35000,
+	phone : {O:"03-4257387", H:"03-168168", M:"0988-168168"}
+}
+var str = JSON.stringify( emp )
+document.write( str, "<br>");
+</script>
+
+<h2>JSON.parse()</h2>
+<script type="text/javascript">
+var json = '{"empno":"7111","ename":"John","sal":35000,"phone":{"O":"03-4257387","H":"03-168168","M":"0988-168168"}}'
+var obj = JSON.parse( json );	
+document.write("empno : ", obj.empno, "<br>");
+document.write("ename : ", obj.ename, "<br>");
+</script>
+</body>
+</html>

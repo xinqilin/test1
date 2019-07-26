@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [17/May/2019:19:57:23 +0800] "GET /manager/html HTTP/1.1" 401 2562
+0:0:0:0:0:0:0:1 - manager-gui [17/May/2019:19:57:30 +0800] "GET /manager/html HTTP/1.1" 200 26056
+0:0:0:0:0:0:0:1 - - [17/May/2019:19:57:30 +0800] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [17/May/2019:19:57:30 +0800] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - - [17/May/2019:19:57:32 +0800] "GET /AjaxLab_Java_DA101_C/ HTTP/1.1" 200 7209
+0:0:0:0:0:0:0:1 - - [17/May/2019:19:57:35 +0800] "GET /AjaxLab_Java_DA101_C/GetResponseText.html HTTP/1.1" 200 989
+0:0:0:0:0:0:0:1 - - [17/May/2019:19:57:39 +0800] "GET /AjaxLab_Java_DA101_C/GetJsonWithJava.html HTTP/1.1" 200 2182
+0:0:0:0:0:0:0:1 - - [17/May/2019:19:57:40 +0800] "GET /AjaxLab_Java_DA101_C/json.js HTTP/1.1" 200 10284
+0:0:0:0:0:0:0:1 - - [17/May/2019:20:00:04 +0800] "GET /AjaxLab_Java_DA101_C/ObjectIntroduction.html HTTP/1.1" 200 1608

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Examples</title>
+</head>
+<body>
+
+<input type="button" name="btn" value="10 + 20 = ?" onclick="showAns();">
+<input type="button" name="btn" value="10 + 20 = ?">
+<input type="button" name="btn" value="10 + 20 = ?">  
+
+<script type="text/javaScript">
+var total=-10;
+
+(function(word){
+	var total = 100;
+	window.alert(word);
+})("下課~~");
+
+
+
+(function(){
+	window.alert("^_______________^");
+})();
+
+
+function init(){
+	var btns = document.getElementsByName("btn");
+
+	//second version
+	btns[1].onClick = showAns;
+	btns[1].onClick = function (){
+				window.alert("不告訢你!!!");
+			};
+
+	//third
+	btns[2].addEventListener("click", showAns, false);
+	btns[2].addEventListener("click", function (){
+						var btns = document.getElementsByName("btn");
+						window.alert('^___________^');
+						btns[2].removeEventListener("click", forFun, false);
+					}, false);
+
+
+	btns[2].addEventListener("load", function(){}, false);
+}
+window.addEventListener("load", init, false);
+
+
+function showAns(){
+	var a = 10;
+	var b = 20;
+	window.alert( a + b);
+}
+</script>
+</body>
+</html>

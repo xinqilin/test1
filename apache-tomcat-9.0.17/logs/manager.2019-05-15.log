@@ -1,0 +1,39 @@
+15-May-2019 11:45:21.461 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+15-May-2019 11:45:21.461 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+15-May-2019 11:45:21.474 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 11:56:24.293 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+15-May-2019 11:56:24.293 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+15-May-2019 11:56:24.300 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 12:01:09.046 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+15-May-2019 12:01:09.046 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+15-May-2019 12:01:09.050 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:21.507 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+15-May-2019 14:45:21.507 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+15-May-2019 14:45:21.517 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:39.098 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:39.774 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:39.958 資訊 [http-nio-8081-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:40.126 資訊 [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:40.262 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:40.373 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:40.574 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:40.740 資訊 [http-nio-8081-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:45:40.885 資訊 [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:46:22.635 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:47:31.240 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:48:01.316 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+15-May-2019 14:48:01.316 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+15-May-2019 14:48:01.326 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:48:55.134 資訊 [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:48:55.942 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:48:56.125 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:48:56.292 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:49:19.274 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+15-May-2019 14:49:19.274 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+15-May-2019 14:49:19.285 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:50:03.562 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+15-May-2019 14:50:03.562 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+15-May-2019 14:50:03.570 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+15-May-2019 14:51:53.315 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+15-May-2019 14:51:53.315 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+15-May-2019 14:51:53.331 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'

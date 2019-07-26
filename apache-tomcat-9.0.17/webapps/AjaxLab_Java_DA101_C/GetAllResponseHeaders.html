@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GetAllResponseHeaders</title>
+</head>
+<body>
+
+<input type=button value="getAllResponseHeaders"
+ onclick="getAllResponseHeaders()">	
+<div id="showPanel"></div> 
+
+<script>      
+var xhr = null;
+
+function createXHR(){   
+  var xhr=null;
+  if( window.XMLHttpRequest ){  
+    xhr = new XMLHttpRequest();
+  }else if( window.ActiveXObject ){   
+    xhr = new ActiveXObject("Microsoft.XMLHTTP");
+  } 
+       
+  return xhr; 
+} 
+
+function stateChanged(){ 
+  console.log(xhr.readyState);
+  //server端處理完畢了没
+  if(xhr.readyState == 4){
+    //request做成功了嗎
+    if(xhr.status == 200){
+      alert(xhr.getAllResponseHeaders());
+    }else{
+      alert(xhr.status);
+    }
+  }
+} 
+
+function getAllResponseHeaders(){  
+  xhr = createXHR(); 
+  if( xhr == null ){
+    alert("Does not support Ajax...");  
+    return;
+  }   
+  
+  //設定好回呼函式
+  xhr.onreadystatechange = stateChanged;
+  
+  //建立好Get連接
+  url = "GetAllResponseHeaders.jsp";
+  xhr.open("get", url, true);
+    
+  //送出請求 
+  xhr.send( null );
+  
+} 
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+127.0.0.1 - - [17/Jun/2019:20:57:43 +0800] "GET /manager/html HTTP/1.1" 401 2562
+127.0.0.1 - - [17/Jun/2019:20:57:43 +0800] "GET /manager/html HTTP/1.1" 401 2562
+127.0.0.1 - manager-gui [17/Jun/2019:20:57:46 +0800] "GET /manager/html HTTP/1.1" 200 42685
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:20:57:46 +0800] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+127.0.0.1 - - [17/Jun/2019:20:57:46 +0800] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+127.0.0.1 - - [17/Jun/2019:20:57:49 +0800] "GET /SL314_JSTL/ HTTP/1.1" 200 4484
+127.0.0.1 - - [17/Jun/2019:20:57:51 +0800] "GET /SL314_JSTL/Core_if.jsp HTTP/1.1" 200 334
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:20:58:39 +0800] "GET /SL314_JSTL/Core_if.jsp?password=123&username=peter1 HTTP/1.1" 200 412
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:20:59:00 +0800] "GET /SL314_JSTL/Core_if.jsp?password=123&username=peter1 HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:20:59:00 +0800] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:20:59:00 +0800] "GET /SL314_JSTL/Core_if.jsp?password=123&username=peter1 HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:20:59:00 +0800] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:20:59:22 +0800] "GET /SL314_JSTL/Core_if.jsp?password=123&username=peter1 HTTP/1.1" 200 419
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:20:59:22 +0800] "GET /favicon.ico HTTP/1.1" 200 21630
