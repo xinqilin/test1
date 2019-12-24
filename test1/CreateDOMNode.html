@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Create DOM Node</title>
+<script type="text/javascript">
+	function appendNode(){
+		// var objNode=document.getElementById("myDiv");
+		// var objBrother=objNode.children[1];
+		// var str="666";
+		// var objNewNode=document.createElement("P");
+		// var objTextNode=document.createTextNode(str);
+		// objNewNode.appendChild(objTextNode);
+		// objNode.appendChild(objNewNode);
+		
+		var getNode=document.getElementById("myDiv");
+		var newElement=document.createElement("p");
+		var newText=document.createTextNode("8787878787");
+		newElement.appendChild(newText);
+		getNode.appendChild(newElement);
+	}
+	function insertNode(){
+		// var objNode=document.getElementById("myDiv");
+		// var objBrother=objNode.children[1];
+		// var str="6666666";
+		// var objNewNode=document.createElement("P");
+		// var objTextNode=document.createTextNode(str);
+		// objNode.insertBefore(objNewNode,objBrother);
+		// objNewNode.appendChild(objTextNode);
+		var objNode=document.getElementById("myDiv");
+		var objNewNode=document.createElement("P");
+		var objTextNode=document.createTextNode("666666666666");
+		var insertNode=document.querySelectorAll("p")[0];
+		objNewNode.appendChild(objTextNode);
+		objNode.insertBefore(objNewNode,insertNode);
+
+
+	}
+	function replaceNode(){
+		var objNode=document.getElementById("myDiv");
+		var objNewNode=document.createElement("P");
+		var objTextNode=document.createTextNode("9999999999");
+		var replace=document.querySelectorAll("p")[2];
+		objNewNode.appendChild(objTextNode);
+		objNode.replaceChild(objNewNode,replace);		
+	}
+	function removeNode(){
+		var objNode=document.getElementById("myDiv");
+		var removeNode=document.querySelectorAll("p")[0];
+		objNode.removeChild(removeNode);
+	}
+
+</script>
+</head>
+<body id="myBody">
+<h2>Insert Node</h2>
+<hr>
+<button onclick="appendNode()" >append</button>
+<button onclick="insertNode()">insertNode</button>
+<button onclick="replaceNode()">replaceNode</button>
+<button onclick="removeNode()">removeNode</button>
+<br>
+<div id="myDiv">
+	<p>Paragraphy one</p>
+	<p>Paragraphy two</p>
+	<p>Paragraphy three</p>
+
+</div>	
+</body>
+</html>
