@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Examples</title>
+</head>
+<body>
+<div>
+	現在位置 : <span id="curPos">I am <b>Sara</b></span>
+</div>   
+
+<script type="text/javascript">
+	var curPos = document.getElementById("curPos");
+	console.log( curPos.innerText);
+	console.log( curPos.innerHTML);
+
+	// curPos.innerText = "首頁 >> <b><i>會員專區</i></b>";
+	curPos.innerHTML = "首頁 >> <b><i>會員專區</i></b>";
+</script> 
+</body>
+</html>

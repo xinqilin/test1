@@ -1,0 +1,190 @@
+25-Apr-2019 10:21:37.649 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.17
+25-Apr-2019 10:21:37.794 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 13 2019 15:55:27 UTC
+25-Apr-2019 10:21:37.798 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.17.0
+25-Apr-2019 10:21:37.799 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Apr-2019 10:21:37.801 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Apr-2019 10:21:37.803 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Apr-2019 10:21:37.804 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\jdk1.8.0_201\jre
+25-Apr-2019 10:21:37.805 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+25-Apr-2019 10:21:37.806 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Apr-2019 10:21:37.809 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\DA101_WebApp\apache-tomcat-9.0.17
+25-Apr-2019 10:21:37.810 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\DA101_WebApp\apache-tomcat-9.0.17
+25-Apr-2019 10:21:37.812 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\DA101_WebApp\apache-tomcat-9.0.17\conf\logging.properties
+25-Apr-2019 10:21:37.813 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Apr-2019 10:21:37.814 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Apr-2019 10:21:37.815 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Apr-2019 10:21:37.816 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Apr-2019 10:21:37.817 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\DA101_WebApp\apache-tomcat-9.0.17
+25-Apr-2019 10:21:37.824 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\DA101_WebApp\apache-tomcat-9.0.17
+25-Apr-2019 10:21:37.827 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\DA101_WebApp\apache-tomcat-9.0.17\temp
+25-Apr-2019 10:21:37.828 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\jdk1.8.0_201\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\PROGRA~2\IDMCOM~1\ULTRAE~1;.]
+25-Apr-2019 10:21:40.061 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 10:21:40.378 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 10:21:40.390 資訊 [main] org.apache.catalina.startup.Catalina.load Server initialization in [4,190] milliseconds
+25-Apr-2019 10:21:40.568 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Apr-2019 10:21:40.569 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.17]
+25-Apr-2019 10:21:40.601 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\docs]
+25-Apr-2019 10:21:41.670 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 10:21:41.722 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\docs] has finished in [1,121] ms
+25-Apr-2019 10:21:41.737 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\examples]
+25-Apr-2019 10:21:43.273 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 10:21:43.311 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\examples] has finished in [1,574] ms
+25-Apr-2019 10:21:43.351 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\host-manager]
+25-Apr-2019 10:21:43.612 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 10:21:43.617 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\host-manager] has finished in [266] ms
+25-Apr-2019 10:21:43.618 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\IBM_9]
+25-Apr-2019 10:21:43.965 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 10:21:44.010 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\IBM_9] has finished in [392] ms
+25-Apr-2019 10:21:44.010 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\manager]
+25-Apr-2019 10:21:44.320 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 10:21:44.323 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\manager] has finished in [313] ms
+25-Apr-2019 10:21:44.323 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\ROOT]
+25-Apr-2019 10:21:44.584 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 10:21:44.586 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\ROOT] has finished in [263] ms
+25-Apr-2019 10:21:44.590 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 10:21:44.612 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 10:21:44.615 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in [4,225] milliseconds
+25-Apr-2019 10:22:14.659 資訊 [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/IBM_9] has started
+25-Apr-2019 10:22:14.972 資訊 [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 10:22:14.974 資訊 [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/IBM_9] is completed
+25-Apr-2019 12:31:06.776 資訊 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/IBM_9] has started
+25-Apr-2019 12:31:07.039 資訊 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 12:31:07.043 資訊 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/IBM_9] is completed
+25-Apr-2019 14:39:09.478 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.17
+25-Apr-2019 14:39:09.482 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 13 2019 15:55:27 UTC
+25-Apr-2019 14:39:09.482 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.17.0
+25-Apr-2019 14:39:09.482 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Apr-2019 14:39:09.483 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Apr-2019 14:39:09.483 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Apr-2019 14:39:09.483 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\jdk1.8.0_201\jre
+25-Apr-2019 14:39:09.483 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+25-Apr-2019 14:39:09.484 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Apr-2019 14:39:09.484 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\DA101_WebApp\apache-tomcat-9.0.17
+25-Apr-2019 14:39:09.484 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\DA101_WebApp\apache-tomcat-9.0.17
+25-Apr-2019 14:39:09.485 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\DA101_WebApp\apache-tomcat-9.0.17\conf\logging.properties
+25-Apr-2019 14:39:09.485 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Apr-2019 14:39:09.485 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Apr-2019 14:39:09.486 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Apr-2019 14:39:09.486 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Apr-2019 14:39:09.486 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\DA101_WebApp\apache-tomcat-9.0.17
+25-Apr-2019 14:39:09.487 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\DA101_WebApp\apache-tomcat-9.0.17
+25-Apr-2019 14:39:09.488 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\DA101_WebApp\apache-tomcat-9.0.17\temp
+25-Apr-2019 14:39:09.488 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\jdk1.8.0_201\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\PROGRA~2\IDMCOM~1\ULTRAE~1;.]
+25-Apr-2019 14:39:09.634 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 14:39:09.768 嚴重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8081]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:535)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1055)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:585)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:608)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1103)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1116)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:557)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	... 13 more
+
+25-Apr-2019 14:39:09.796 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 14:39:09.799 嚴重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:535)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1055)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:585)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:608)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1103)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1116)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:557)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	... 13 more
+
+25-Apr-2019 14:39:09.803 資訊 [main] org.apache.catalina.startup.Catalina.load Server initialization in [630] milliseconds
+25-Apr-2019 14:39:09.824 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Apr-2019 14:39:09.825 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.17]
+25-Apr-2019 14:39:09.832 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\docs]
+25-Apr-2019 14:39:10.320 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 14:39:10.354 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\docs] has finished in [522] ms
+25-Apr-2019 14:39:10.355 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\examples]
+25-Apr-2019 14:39:10.785 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 14:39:10.819 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\examples] has finished in [464] ms
+25-Apr-2019 14:39:10.820 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\host-manager]
+25-Apr-2019 14:39:11.061 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 14:39:11.066 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\host-manager] has finished in [245] ms
+25-Apr-2019 14:39:11.067 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\IBM_9]
+25-Apr-2019 14:39:11.351 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 14:39:11.355 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\IBM_9] has finished in [288] ms
+25-Apr-2019 14:39:11.356 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\manager]
+25-Apr-2019 14:39:11.606 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 14:39:11.610 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\manager] has finished in [253] ms
+25-Apr-2019 14:39:11.610 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\ROOT]
+25-Apr-2019 14:39:11.854 資訊 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Apr-2019 14:39:11.857 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\DA101_WebApp\apache-tomcat-9.0.17\webapps\ROOT] has finished in [246] ms
+25-Apr-2019 14:39:11.860 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in [2,056] milliseconds
+25-Apr-2019 14:39:11.863 嚴重 [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:582)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:722)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+25-Apr-2019 14:39:11.865 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 14:39:11.866 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 14:39:11.866 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Apr-2019 14:39:11.895 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 14:39:11.896 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 14:39:11.896 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 14:39:11.897 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 14:39:14.680 資訊 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Apr-2019 14:39:14.681 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 14:39:14.814 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 14:39:14.928 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Apr-2019 14:39:14.949 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 14:39:14.952 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 14:39:14.956 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+25-Apr-2019 14:39:14.958 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

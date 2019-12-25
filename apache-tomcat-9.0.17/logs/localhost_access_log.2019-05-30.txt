@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [30/May/2019:19:29:49 +0800] "GET /manager/html HTTP/1.1" 401 2562
+0:0:0:0:0:0:0:1 - manager-gui [30/May/2019:19:30:00 +0800] "GET /manager/html HTTP/1.1" 200 28153
+0:0:0:0:0:0:0:1 - - [30/May/2019:19:30:00 +0800] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [30/May/2019:19:30:00 +0800] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - - [30/May/2019:19:30:00 +0800] "GET /favicon.ico HTTP/1.1" 200 21630

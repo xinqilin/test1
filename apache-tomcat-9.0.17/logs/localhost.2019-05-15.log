@@ -1,0 +1,86 @@
+15-May-2019 11:45:13.050 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 11:45:13.050 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 11:45:13.051 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6d4a82')
+15-May-2019 11:45:34.226 資訊 [http-nio-8081-exec-10] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:42.679 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:43.085 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:43.254 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:43.429 資訊 [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:43.607 資訊 [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:43.764 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:43.932 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:44.085 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:44.279 資訊 [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:44.469 資訊 [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:44.989 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:45.196 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:45.358 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:45.549 資訊 [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:45.702 資訊 [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:45.862 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:46.045 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:46.246 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:46.470 資訊 [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:47.116 資訊 [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:47.333 資訊 [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:47.533 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:45:47.724 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:46:14.569 資訊 [http-nio-8081-exec-10] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:46:57.280 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+15-May-2019 11:46:57.280 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+15-May-2019 11:52:15.025 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 11:52:15.026 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 11:52:15.026 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3002e397')
+15-May-2019 11:53:09.432 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 11:53:09.432 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 11:53:09.433 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3002e397')
+15-May-2019 11:53:57.940 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+15-May-2019 11:53:57.940 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+15-May-2019 11:56:13.360 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 11:56:13.360 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 11:56:13.361 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14f060b8')
+15-May-2019 11:56:31.433 資訊 [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:56:59.078 資訊 [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:56:59.276 資訊 [http-nio-8081-exec-10] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:56:59.437 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:56:59.604 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:56:59.773 資訊 [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:56:59.909 資訊 [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:57:00.069 資訊 [http-nio-8081-exec-10] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:57:00.252 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 11:59:05.347 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+15-May-2019 11:59:05.347 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+15-May-2019 12:01:00.700 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 12:01:00.700 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 12:01:00.702 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14f060b8')
+15-May-2019 12:01:18.242 資訊 [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:42.874 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:47.415 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:47.822 資訊 [http-nio-8081-exec-4] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:48.031 資訊 [http-nio-8081-exec-5] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:48.207 資訊 [http-nio-8081-exec-10] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:48.375 資訊 [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:48.518 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:48.672 資訊 [http-nio-8081-exec-4] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:48.807 資訊 [http-nio-8081-exec-5] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:02:50.805 資訊 [http-nio-8081-exec-10] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 12:03:07.042 資訊 [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log HelloWorld: The default buffer size is 8192
+15-May-2019 14:45:11.054 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 14:45:11.054 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 14:45:11.055 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14f060b8')
+15-May-2019 14:47:51.950 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+15-May-2019 14:47:51.950 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+15-May-2019 14:47:55.601 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 14:47:55.602 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 14:47:55.603 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14f060b8')
+15-May-2019 14:49:10.329 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 14:49:10.329 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 14:49:10.331 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14f060b8')
+15-May-2019 14:49:51.863 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 14:49:51.864 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 14:49:51.865 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14f060b8')
+15-May-2019 14:50:25.797 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+15-May-2019 14:50:25.797 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+15-May-2019 14:51:47.720 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-May-2019 14:51:47.720 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-May-2019 14:51:47.722 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6d4a82')

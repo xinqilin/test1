@@ -1,0 +1,56 @@
+12-Jun-2019 11:45:47.101 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Jun-2019 11:45:47.101 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Jun-2019 11:45:47.103 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@29d2fa84')
+12-Jun-2019 12:00:04.049 嚴重 [http-nio-8081-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SL314_EL] threw exception [An exception occurred processing [/ELpageContext.jsp] at line [19]
+
+16: \${pageContext.request.remoteUser}： ${pageContext.request.remoteUser} </br>
+17: \${pageContext.request.remoteAddr }：${pageContext.request.remoteAddr} </br>
+18: \${pageContext.session["new"]}：     ${pageContext.session["new"]}     </br>
+19: \${pageContext.session.isNew}：     ${pageContext.session.isNew}     </br>
+20: \${pageContext.session.id}：         ${pageContext.session.id}         </br>
+21: 
+22: </body>
+
+
+Stacktrace:] with root cause
+ javax.el.PropertyNotFoundException: Property [isNew] not found on type [org.apache.catalina.session.StandardSessionFacade]
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:260)
+	at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:212)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:347)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:92)
+	at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:113)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:169)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190)
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:701)
+	at org.apache.jsp.ELpageContext_jsp._jspService(ELpageContext_jsp.java:151)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Jun-2019 15:39:51.904 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Jun-2019 15:39:51.904 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

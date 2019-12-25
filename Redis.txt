@@ -1,0 +1,12 @@
+redis-server c:\Redis\redis.windows.conf
+
+若出錯
+redis-cli.exe
+127.0.0.1:6379>shutdown
+not connected>exit
+
+
+另開一個
+
+redis-cli
+auth 123456
